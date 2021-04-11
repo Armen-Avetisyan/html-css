@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main .main-top .second-up-image-main {
+    width: inherit;
+    height: 450px;
+    background-image: url("https://freor.com/wp-content/uploads/2016/05/FREOR-about-us-banner.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+.main .second-up-image-main .for-new-address {
+    width: 350px;
+    height: 200px;
+    background-color: rgba(0, 70, 79, .75);
+    margin-top: 110px;
+    margin-left: 20px;
+    color: #f5f5f5;
+    padding: 16px;
+    font-size: 14px;
+}
+
+.second-up-image-main .for-new-address h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 0;
+    /* margin-bottom: 10px; */
+}
+
+.second-up-image-main .for-new-address a {
+    width: auto;
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 12px;
+    border: 1px solid #91acae;
+    color: #5f8b95;
+    text-decoration: none;
+}
+
+.second-up-image-main .for-new-address a:hover {
+    background-color: #91acae;
+    color: #f5f5f5;
+}
+
+.pace-for-second {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.pace-for-second a {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 26px;
+    color: #00464f;
+}
+
+.pace-for-second a:hover {
+    color: #3fd5ae;
+}
+
+.section-main {
+    /* border: 2px solid #00464f; */
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 8px 16px;
+    display: flex;
+}
+
+.section-main .ing-sec {
+    margin-right: 16px;
+    font-weight: lighter;
+}
+
+.section-main .in-section {
+    color: #91acae
+}
+
+.section-main .in-section h2 {
+    margin: 16px 0;
+}
+
+.section-main .in-section a {
+    color: #91acae;
+    border: 1px solid #91acae;
+    padding: 6px 12px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.section-main .in-section a:hover {
+    background-color: #91acae;
+    color: #fff;
+}

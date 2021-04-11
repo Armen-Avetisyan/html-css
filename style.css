@@ -1,0 +1,476 @@
+    * {
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        margin: 0;
+        font-family: 'Roboto';
+        position: relative;
+    }
+    
+    .header {
+        width: auto;
+        min-height: 173;
+    }
+    
+    .header .top-header {
+        width: 1150px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        padding: 25px 0;
+    }
+    
+    .top-header .brend {
+        margin-right: auto;
+    }
+    
+    .top-header .brend a img {
+        width: 110px;
+    }
+    
+    .top-header .icons {
+        min-width: 100px;
+        display: flex;
+        display: inline-block;
+        margin: 0 5px;
+    }
+    
+    .top-header .icons a {
+        text-decoration: none;
+    }
+    
+    .top-header .icons a img {
+        width: 21px;
+        margin: 0 3px;
+    }
+    
+    .top-header .icons a img:hover {
+        background-color: #3fd4ad;
+    }
+    
+    .top-header .map-header:hover {
+        background: #004751;
+        color: #004751;
+    }
+    
+    .top-header .map-header {
+        width: 50px;
+        position: relative;
+        top: 8px;
+        right: 10px;
+    }
+    
+    .header-nav-div {
+        height: 44px;
+        background: #004751;
+        margin-bottom: 16px;
+    }
+    
+    .header-nav {
+        width: 940px;
+        height: 44px;
+        display: flex;
+        margin: auto;
+    }
+    
+    .header-nav a {
+        margin: auto 20px;
+        color: #f5f5f5;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .header-nav a:first-child {
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    
+    .header-nav a:hover {
+        color: #13cfaa;
+    }
+    /* in the up header section style*/
+    
+    .div-fon-main {
+        background-color: #f5f5f5;
+    }
+    
+    .main {
+        width: 1150px;
+        min-height: 700px;
+        margin: auto;
+        /* background: #f5f5f5; */
+        display: block;
+    }
+    
+    .main .main-top .up-image-main {
+        width: inherit;
+        height: 700px;
+        background-image: url("./img/img-freor/freor-building.JPG");
+        background-size: cover;
+        display: flex;
+    }
+    
+    .div-radiuses {
+        width: 100px;
+        display: flex;
+        margin: 20px 20px auto auto;
+    }
+    
+    .div-radiuses div {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        margin: 4px;
+        background-color: #7c9ca1;
+    }
+    
+    .div-radiuses .active-div-radiuses {
+        background-color: #3fd4ad;
+    }
+    
+    .div-radiuses div:hover {
+        background-color: #3fd4ad;
+        cursor: pointer;
+    }
+    /*  for-new-address  -->  */
+    
+    .main .up-image-main .for-new-address {
+        width: 370px;
+        height: 170px;
+        background-color: rgba(0, 70, 79, .75);
+        margin-top: 50px;
+        margin-left: 20px;
+        color: #f5f5f5;
+        padding: 20px 20px 18px 18px;
+        font-size: 14px;
+    }
+    
+    .main .up-image-main .for-new-address h2 {
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0;
+        /* margin-bottom: 10px; */
+    }
+    
+    .main .up-image-main .for-new-address a {
+        width: auto;
+        display: inline-block;
+        margin-top: 8px;
+        padding: 8px 12px;
+        border: 1px solid #91acae;
+        color: #5f8b95;
+        text-decoration: none;
+    }
+    
+    .main .up-image-main .for-new-address a:hover {
+        background-color: #91acae;
+        color: #f5f5f5;
+        ;
+    }
+    /* <-- for-new-address */
+    /* main section pece  ---> */
+    
+    .main .section-bg-fon {
+        margin-top: -200px;
+        z-index: 800;
+    }
+    
+    .main .sections-div {
+        height: 300px;
+        margin: -10px -10px -10px -10px;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .main .main-top-section {
+        width: 33.33%;
+        height: auto;
+        background-color: yellow;
+        margin: 10px 10px 10px 0;
+        padding: 16px;
+        text-align: center;
+        /* display: none; */
+    }
+    
+    .main .main-top-section .h2 {
+        margin-bottom: 80px;
+        /* display: none; */
+    }
+    
+    .main .main-top-section:hover {
+        /* display: block; */
+    }
+    /* .main .main-top-section p {
+   
+} */
+    
+    .main .main-top-section:nth-child(1) {
+        margin-left: 10px;
+        background-color: #edda22;
+        color: #aa9100;
+    }
+    
+    .main .main-top-section:nth-child(1):hover {
+        background-color: yellowgreen;
+    }
+    
+    .main .main-top-section:nth-child(2) {
+        background-color: #266269;
+        color: #ffffff;
+    }
+    
+    .main .main-top-section:nth-child(2):hover {
+        background-color: yellowgreen;
+    }
+    
+    .main .main-top-section:nth-child(3) {
+        background-color: #3fd4ad;
+        color: #fff;
+    }
+    
+    .main .main-top-section:nth-child(3):hover {
+        background-color: yellowgreen;
+    }
+    /* <----  main section pece */
+    /* PRODUCTS main pace--->  */
+    
+    .product {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .h2-PRODUCTS {
+        color: #00464f;
+    }
+    
+    .hr-product-h2 {
+        color: #00464f;
+        /* margin-bottom: 50px; */
+    }
+    
+    .img-product {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .img-blok {
+        width: 330px;
+        height: 330px;
+        margin: 20px;
+        /* transition: box-shadow .3s; */
+        transition: 450ms;
+        background-size: contain;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* text-decoration: none; */
+    }
+    
+    .img-blok div {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #5cdab9;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .img-blok div h3 {
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .img-blok:hover {
+        /* box-shadow: 0 30px 60px rgba(33, 33, 33, .2); */
+        box-shadow: 0 0 36px rgba(0, 0, 0, 1);
+        transform: scale(1.05);
+        transition: 450ms;
+        background-color: royalblue;
+    }
+    
+    .img-blok:nth-child(1) {
+        background-image: url(https://freor.com/wp-content/uploads/2017/02/Freor_auksti_priesieniai.jpg);
+    }
+    
+    .img-blok:nth-child(2) {
+        background-image: url(https://freor.com/wp-content/uploads/2017/01/Freor-zemi-priesieniai.jpg)
+    }
+    
+    .img-blok:nth-child(3) {
+        background-image: url(https://freor.com/wp-content/uploads/2016/11/Freor_saldikliai-1.jpg)
+    }
+    
+    .img-blok:nth-child(4) {
+        background-image: url(https://freor.com/wp-content/uploads/2016/11/Freor_vitrinos.jpg)
+    }
+    
+    .img-blok:nth-child(5) {
+        background-image: url(https://freor.com/wp-content/uploads/2017/01/sildomos-vitrinos.jpg)
+    }
+    
+    .img-blok:nth-child(6) {
+        background-image: url(https://freor.com/wp-content/uploads/2016/05/7green-wave2.jpg)
+    }
+    /* <--- PRODUCTS main pace */
+    /*  footer pace ---> */
+    
+    footer {
+        background: #004751;
+    }
+    
+    .footer-wrapper {
+        width: 1150px;
+        margin: auto;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        /* align-items: center; */
+    }
+    
+    .footer-nav-blok {
+        width: 33%;
+        /* justify-content: start; */
+    }
+    
+    .footer-nav-blok h2 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    .footer-nav-blok a {
+        display: block;
+        color: #fff;
+        padding-top: 8px;
+        font-size: 18px;
+        width: max-content;
+    }
+    
+    .footer-nav-blok a:hover {
+        color: #3fd5ae;
+    }
+    /* - */
+    
+    .footer-contact-blok {
+        width: 33%;
+        color: #fff;
+        padding: 0 15px;
+    }
+    
+    .h2-footer {
+        color: #fff;
+        font-size: 35px;
+        font-weight: lighter;
+        margin: 0;
+    }
+    
+    .footer-contact-blok p {}
+    
+    .par-footer .text {
+        font-size: 18px;
+    }
+    
+    .span-hover:hover {
+        color: #3fd5ae;
+    }
+    /* --- */
+    
+    .networking-site-blok {
+        width: 33%;
+        color: #fff;
+        padding: 0 15px;
+    }
+    
+    .networking-site-blok a {
+        display: block;
+        color: #fff;
+        /* padding-top: 8px; */
+        font-size: 18px;
+        width: max-content;
+    }
+    
+    .networking-site-blok a:hover {
+        color: #3fd5ae;
+    }
+    
+    .networking-site-blok a span {
+        display: inline;
+    }
+    
+    .networking-icon {
+        color: #fff;
+        font-size: 25px;
+    }
+    /* <---  footer pace  */
+    /* footer-end-blok ---> */
+    
+    .footer-end-blok {
+        display: block;
+        width: 1150px;
+        margin: auto;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .div-a {
+        margin-top: 26px;
+        padding-left: 0;
+    }
+    
+    .div-a a {
+        color: white;
+        border-left: 1px solid #fff;
+        font-size: 22px;
+    }
+    
+    .div-a a:first-child {
+        border-left: 0;
+    }
+    
+    .div-a a:hover {
+        color: #3fd5ae;
+    }
+    /* -------- */
+    
+    .footer-end-blok .Privacy {
+        color: #fff;
+        display: flex;
+        position: relative;
+    }
+    
+    .footer-end-blok .to-top {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        border-color: #BCC9C5;
+        font-weight: bold;
+        text-align: center;
+        background-color: #bcc9c5;
+        margin: 40px;
+        position: fixed;
+        right: 5px;
+        bottom: 5px;
+    }
+    
+    .footer-end-blok .to-top a {
+        color: #fff;
+        display: inline-block;
+        padding-top: 6px;
+    }
+    
+    .footer-end-blok .to-top:hover {
+        border-color: #8a9290;
+        background-color: #8a9290;
+    }
